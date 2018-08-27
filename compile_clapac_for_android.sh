@@ -23,5 +23,4 @@ sed -i 's/include $(BUILD_SHARED_LIBRARY)/#include $(BUILD_SHARED_LIBRARY)/g' jn
 echo "Building clapac for android."
 $ndk_root/ndk-build
 
-cp -R obj/local/armeabi-v7a/ $h/OpenBLAS/install/lib/
 cp  obj/local/armeabi-v7a/* $h/OpenBLAS/install/lib/
