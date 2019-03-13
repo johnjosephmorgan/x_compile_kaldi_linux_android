@@ -25,4 +25,5 @@ $ndk_root/build/tools/make_standalone_toolchain.py \
     --arch arm \
     --api $api \
     --stl=libc++ \
-    --install-dir $tc_dir
+    --install-dir $tc_dir \
+    --force
